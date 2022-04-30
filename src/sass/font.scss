@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Roboto&display=swap');
+@mixin font-style($size, $weight, $height,$family){
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    font-family: $family;  
+} 
+$color: #000,#4F4F4F, #828282;
+
+.cont-page{
+    .tit-page{
+        @include font-style(24px,700,28px,'Roboto');
+    }
+    .nav-page li{
+        @include font-style(16px,500,19px,'Roboto');
+    }
+}
+.list-movie .tit-movie{
+    @include font-style(16px,900,23px,'Noto sans KR');
+}
+.info-movie{
+    @include font-style(13px,400,19px,'Noto sans KR');
+    .btn{
+        @include font-style(14px,500,20px,'Noto sans KR');
+    }
+    .info-detail{
+        color:nth($color,3);
+    }
+}
+.footer .name-company{
+    @include font-style(22px,700,20px,'Roboto');
+}
+.info-company {
+    color:nth($color,2);
+    dt{
+    @include font-style(14px,900,20px,'Noto sans KR');
+    }
+    dd{
+        @include font-style(14px,400,20px,'Noto sans KR');
+    }
+}
+.cont-page .nav-page li a{
+    color:nth($color,3);
+    &:hover{
+        color: #000;
+    }
+}

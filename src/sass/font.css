@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Roboto&display=swap");
+.cont-page .tit-page {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Roboto";
+}
+
+.cont-page .nav-page li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: "Roboto";
+}
+
+.list-movie .tit-movie {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 23px;
+  font-family: "Noto sans KR";
+}
+
+.info-movie {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  font-family: "Noto sans KR";
+}
+
+.list-movie .btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "Noto sans KR";
+}
+
+.footer .name-company {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: "Roboto";
+}
+
+.info-company dt {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  font-family: "Noto sans KR";
+}
+
+.info-company dd {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Noto sans KR";
+}
+
+.cont-page .nav-page li a {
+  color: #828282;
+}
+
+.cont-page .nav-page li a:hover {
+  color: #000;
+}
+
+.info-movie .info-detail {
+  color: #828282;
+}
+
+.info-company dd, .info-company dt {
+  color: #4F4F4F;
+}
+/*# sourceMappingURL=font.css.map */
