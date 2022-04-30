@@ -9,10 +9,17 @@ $color: #000,#4F4F4F, #828282;
 
 .cont-page{
     .tit-page{
-        @include font-style(24px,700,28px,'Roboto');
+        @include font-style(24px,bold,28px,'Roboto');
     }
     .nav-page li{
         @include font-style(16px,500,19px,'Roboto');
+    }
+}
+.cont-page .nav-page li a{
+    color:nth($color,3);
+    &:hover{
+        color: #000;
+        font-weight: bold;
     }
 }
 .list-movie .tit-movie{
@@ -37,11 +44,5 @@ $color: #000,#4F4F4F, #828282;
     }
     dd{
         @include font-style(14px,400,20px,'Noto sans KR');
-    }
-}
-.cont-page .nav-page li a{
-    color:nth($color,3);
-    &:hover{
-        color: #000;
     }
 }
