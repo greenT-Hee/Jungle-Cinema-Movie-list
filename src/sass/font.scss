@@ -22,14 +22,16 @@ $color: #000,#4F4F4F, #828282;
         font-weight: bold;
     }
 }
-.list-movie .tit-movie{
-    @include font-style(16px,900,23px,'Noto sans KR');
-}
-.info-movie{
-    @include font-style(13px,400,19px,'Noto sans KR');
+.list-movie{
+    .tit-movie{
+        @include font-style(16px,900,23px,'Noto sans KR');
+    }
     .btn{
         @include font-style(14px,500,20px,'Noto sans KR');
     }
+}
+.info-movie{
+    @include font-style(13px,400,19px,'Noto sans KR');
     .info-detail{
         color:nth($color,3);
     }

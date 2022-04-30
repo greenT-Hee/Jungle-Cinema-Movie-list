@@ -5,66 +5,55 @@
   line-height: 28px;
   font-family: "Roboto";
 }
-
 .cont-page .nav-page li {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   font-family: "Roboto";
 }
-
 .cont-page .nav-page li a {
   color: #828282;
 }
-
 .cont-page .nav-page li a:hover {
   color: #000;
   font-weight: bold;
 }
-
 .list-movie .tit-movie {
   font-size: 16px;
   font-weight: 900;
   line-height: 23px;
   font-family: "Noto sans KR";
 }
-
+.list-movie .btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "Noto sans KR";
+}
 .info-movie {
   font-size: 13px;
   font-weight: 400;
   line-height: 19px;
   font-family: "Noto sans KR";
 }
-
-.info-movie .btn {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  font-family: "Noto sans KR";
-}
-
 .info-movie .info-detail {
   color: #828282;
 }
-
 .footer .name-company {
   font-size: 22px;
   font-weight: 700;
   line-height: 20px;
   font-family: "Roboto";
 }
-
 .info-company {
   color: #4F4F4F;
 }
-
 .info-company dt {
   font-size: 14px;
   font-weight: 900;
   line-height: 20px;
   font-family: "Noto sans KR";
 }
-
 .info-company dd {
   font-size: 14px;
   font-weight: 400;
