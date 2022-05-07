@@ -181,7 +181,7 @@
 }
 .info-company dd{
     padding: 0 5px 0 2px;
-    border-right: 1px solid #4f4f4f;
+    border-right: 0.5px solid #4f4f4f;
 }
 .info-company dd:nth-of-type(4){
     border-right: none;
